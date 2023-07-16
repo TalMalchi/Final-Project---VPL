@@ -6,6 +6,8 @@ teacher_link="https://github.com/cpp-exercises-5782/notebook-a.git" #link to tea
 git clone --quiet $(cat $requested_file) $student_files
 git clone --quiet $teacher_link $teacher_files
 find $student_files -type f -exec cp -n {} $teacher_files \;
+find $student_files -exec cp -nR {} $teacher_files \;
+rm -f -r $student_files
 mv  $teacher_files/* ./
 
 
