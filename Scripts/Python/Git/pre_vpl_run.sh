@@ -1,5 +1,5 @@
 student_files="student_folder"
-requested_file="link_py.txt" # Name of the file containing student input
+requested_file="link_py.txt" # Name of the file containing student inputt
 
 # Read the student's input file and extract the repository URL and commit number
 mapfile -t input_lines < "$requested_file"
