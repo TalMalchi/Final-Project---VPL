@@ -1,8 +1,9 @@
 student_files="student_folder"
 teacher_files="teacher_folder"
 requested_file="OrgChart.zip" # Name of the file containing student input, must be change to the same name in the requested file
-commit_teacher="f40446d"
-teacher_link="https://github.com/itay-kar/orgchart-b_test.git" # Link to teacher's git repository
+commit_teacher="9a6dd77"
+teacher_link="https://github.com/Final-Project-VPL-Ariel/Orgchart-teacher.git" # Link to teacher's git repository
+
 
 unzip "$requested_file" -d "$student_files"
 git clone --quiet "$teacher_link" "$teacher_files"
