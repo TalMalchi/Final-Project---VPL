@@ -2,8 +2,8 @@ student_files="student_folder"
 teacher_files="teacher_folder"
 requested_file="link.txt" # Name of the file containing student input
 
-commit_teacher="f40446d"
-teacher_link="https://github.com/itay-kar/orgchart-b_test.git" # Link to teacher's git repository
+commit_teacher="9a6dd77"
+teacher_link="https://github.com/Final-Project-VPL-Ariel/Orgchart-teacher.git" # Link to teacher's git repository
 
 mapfile -t input_lines < "$requested_file"
 repo_url="${input_lines[0]}"
